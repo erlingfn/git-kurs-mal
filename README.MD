@@ -6,13 +6,19 @@ Tilhører Git-kurs for sommerprosjektet 2017
 
 Skriveleif
 
+# Oppgaver
+Hvis du står fast kan du gå tilbake til [https://try.github.io] for å se over
+kommandoer
+
 ## Oppgave 1
 Lag en liten feature
 
 - Lag en ny branch utifra master med navn ”feature-<branch_navn>"
-- Legg til en ny linje i README.MD
+- Legg til en ny linje i SOME_FILE.MD
 - Commit med passende melding
 - Push opp branchen til repoet
+    - Hint: Nye branches lagd lokalt må kobles opp mot en ny branch i remote repo.
+    ```git push -u origin min-custom-branch```
 
 ## Oppgave 2
 Fiks en liten bug
@@ -25,18 +31,23 @@ Fiks en liten bug
 ## Oppgave 3
 Fiks en merge-konflikt
 
-Lag ny lokal branch med navn <lokalt_branch_navn> som er koblet mot remote branch med 
-navn <remote_branch_navn>:
-```git checkout -b <lokalt_branch_navn> origin/<remote_branch_navn>```
-
 - Hent ned branchene "conflict-branch-1" og "conflict-branch-2"
+    - Hint: Bruk ```git fetch``` for å hente ned brancher fra remote hvis de ikke allerede 
+    eksisterer lokalt
 - Merge "conflict-branch-2" inn i "conflict-branch-1"
-- Løs konfliktene med konflikhåndteringsverktøy i IntelliJ (ikke push opp resultat)
+- Løs konfliktene med konflikhåndteringsverktøy i IntelliJ (ikke push opp resultatet)
 
 ## Oppgave 4
 Lag en merge request
 
 - Lag en merge request for branchen du lagde i oppgave 1.
+    - Hint: Hvis du tidligere har pushet en branch til remote i terminal har du kanskje sett
+    link til å lage merge request?
 - Få noen andre til å ta "code-review" på endringen du lagde
     - Personen skal lage minst en kommentar på en vilkårlig linje i "changes"-view
-- Personen skal akseptere merge-requesten
+    - Personen skal akseptere merge-requesten inn i
+    
+## Oppgave 5
+Now with GUI!
+
+- Gjør oppgave 1 med kun bruk av Git-verktøy i IntelliJ
