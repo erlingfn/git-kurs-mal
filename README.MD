@@ -13,7 +13,7 @@ kommandoer
 ## Oppgave 1
 Lag en liten feature
 
-- Lag en ny branch utifra master med navn ”feature-<branch_navn>"
+- Lag en ny branch utifra master med navn ```feature-<branch_navn>```
 - Legg til en ny linje i SOME_FILE.MD
 - Commit med passende melding
 - Push opp branchen til repoet
@@ -23,7 +23,7 @@ Lag en liten feature
 ## Oppgave 2
 Fiks en liten bug
 
-- Lag en ny branch utifra master med navn ”bugfix-<branch_navn>”
+- Lag en ny branch utifra master med navn ```bugfix-<branch_navn>```
 - Gjør om linjen ”Skriveleif” til ”Skrivefeil” i README.MD
 - Commit med passende melding
 - Push opp branchen til repoet
@@ -31,11 +31,12 @@ Fiks en liten bug
 ## Oppgave 3
 Fiks en merge-konflikt
 
-- Hent ned branchene "conflict-branch-1" og "conflict-branch-2"
+- Hent ned branchene ```conflict-branch-1``` og ```conflict-branch-2```
     - Hint: Bruk ```git fetch``` for å hente ned brancher fra remote hvis de ikke allerede 
     eksisterer lokalt
-- Merge "conflict-branch-2" inn i "conflict-branch-1"
-- Løs konfliktene med konflikhåndteringsverktøy i IntelliJ (ikke push opp resultatet)
+- Merge ```conflict-branch-2``` inn i ```conflict-branch-1```
+- Løs konfliktene med konflikhåndteringsverktøy i IntelliJ
+- Commit etter å ha løst merge-konflikt (ikke push opp resultatet)
 
 ## Oppgave 4
 Lag en merge request
