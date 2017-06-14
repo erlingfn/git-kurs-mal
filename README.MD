@@ -7,7 +7,7 @@ Tilhører Git-kurs for sommerprosjektet 2017
 Skriveleif
 
 # Oppgaver
-Hvis du står fast kan du gå tilbake til [https://try.github.io] for å se over
+Hvis du står fast kan du gå tilbake til (https://try.github.io) for å se over
 kommandoer
 
 ## Oppgave 1
