@@ -19,6 +19,7 @@ Lag en liten feature
 - Push opp branchen til repoet
     - Hint: Nye branches lagd lokalt må kobles opp mot en ny branch i remote repo.
     ```git push -u origin min-custom-branch```
+- Sjekk at branchen eksisterer i remote repo på Gitlab
 
 ## Oppgave 2
 Fiks en liten bug
@@ -27,20 +28,25 @@ Fiks en liten bug
 - Gjør om linjen ”Skriveleif” til ”Skrivefeil” i README.MD
 - Commit med passende melding
 - Push opp branchen til repoet
+- Sjekk at branchen eksisterer i remote repo på Gitlab
 
 ## Oppgave 3
 Fiks en merge-konflikt
 
+- Bytt branch til master
 - Hent ned branchene ```conflict-branch-1``` og ```conflict-branch-2```
-    - Hint: Bruk ```git fetch``` for å hente ned brancher fra remote hvis de ikke allerede 
-    eksisterer lokalt
-- Merge ```conflict-branch-2``` inn i ```conflict-branch-1``` og løs konfliktene med konflikhåndteringsverktøy i IntelliJ
+    - Hint: Bruk ```git checkout -b conflict-branch-1 origin/conflict-branch-1```
+    for å lage en lokal branch som er koblet opp til samme branch i remote repo. Kjør
+    kommandoen for begge branches slik at du har de lokalt.
+- Merge ```conflict-branch-2``` inn i ```conflict-branch-1``` og løs konfliktene med
+konflikhåndteringsverktøy i IntelliJ
 - Commit etter å ha løst merge-konflikt (ikke push opp resultatet)
 
 ## Oppgave 4
 Lag en merge request
 
 - Lag en ny branch utifra master
+- Push den nye branchen til remote repo
 - Lag en merge request for branchen du lagde i oppgave 1. Branchen du nettopp lagde 
 skal være "target" branch for merge request, mens branchen fra oppgave 1 skal være "source"
 branch.
@@ -48,7 +54,8 @@ branch.
     link til å lage merge request?
 - Få noen andre til å ta "code-review" på endringen du lagde
     - Vedkommende skal lage minst en kommentar på en vilkårlig linje i "changes"-view
-    - Vedkommende skal akseptere merge-requesten etter å ha lagd en kommentar
+    - Vedkommende skal akseptere merge-requesten (trykk "merge") etter å ha lagd
+    en kommentar
     
 ## Oppgave 5
 Now with GUI!
