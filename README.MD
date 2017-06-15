@@ -34,8 +34,7 @@ Fiks en merge-konflikt
 - Hent ned branchene ```conflict-branch-1``` og ```conflict-branch-2```
     - Hint: Bruk ```git fetch``` for å hente ned brancher fra remote hvis de ikke allerede 
     eksisterer lokalt
-- Merge ```conflict-branch-2``` inn i ```conflict-branch-1```
-- Løs konfliktene med konflikhåndteringsverktøy i IntelliJ
+- Merge ```conflict-branch-2``` inn i ```conflict-branch-1``` og løs konfliktene med konflikhåndteringsverktøy i IntelliJ
 - Commit etter å ha løst merge-konflikt (ikke push opp resultatet)
 
 ## Oppgave 4
