@@ -40,12 +40,15 @@ Fiks en merge-konflikt
 ## Oppgave 4
 Lag en merge request
 
-- Lag en merge request for branchen du lagde i oppgave 1.
+- Lag en ny branch utifra master
+- Lag en merge request for branchen du lagde i oppgave 1. Branchen du nettopp lagde 
+skal være "target" branch for merge request, mens branchen fra oppgave 1 skal være "source"
+branch.
     - Hint: Hvis du tidligere har pushet en branch til remote i terminal har du kanskje sett
     link til å lage merge request?
 - Få noen andre til å ta "code-review" på endringen du lagde
-    - Personen skal lage minst en kommentar på en vilkårlig linje i "changes"-view
-    - Personen skal akseptere merge-requesten inn i
+    - Vedkommende skal lage minst en kommentar på en vilkårlig linje i "changes"-view
+    - Vedkommende skal akseptere merge-requesten etter å ha lagd en kommentar
     
 ## Oppgave 5
 Now with GUI!
