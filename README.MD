@@ -1,6 +1,6 @@
-# Sommerprosjekt 2017
+# Hovedprosjekt 2018
 
-Tilhører Git-kurs for sommerprosjektet 2017
+Tilhører Git-kurs for hovedprosjekt 2018
 
 (http://memeshappen.com/media/created/One-does-not-simply-understand-git-meme-60285.jpg)
 
@@ -19,7 +19,7 @@ Lag en liten feature
 - Push opp branchen til repoet
     - Hint: Nye branches lagd lokalt må kobles opp mot en ny branch i remote repo.
     ```git push -u origin min-custom-branch```
-- Sjekk at branchen eksisterer i remote repo på Gitlab
+- Sjekk at branchen eksisterer i remote repo på Github
 
 ## Oppgave 2
 Fiks en liten bug
@@ -28,7 +28,7 @@ Fiks en liten bug
 - Gjør om linjen ”Skriveleif” til ”Skrivefeil” i README.MD
 - Commit med passende melding
 - Push opp branchen til repoet
-- Sjekk at branchen eksisterer i remote repo på Gitlab
+- Sjekk at branchen eksisterer på Github
 
 ## Oppgave 3
 Fiks en merge-konflikt
@@ -43,20 +43,17 @@ konflikhåndteringsverktøy i IntelliJ
 - Commit etter å ha løst merge-konflikt (ikke push opp resultatet)
 
 ## Oppgave 4
-Lag en merge request
+Lag en pull request
 
 - Lag en ny branch utifra master
 - Push den nye branchen til remote repo
-- Lag en merge request for branchen du lagde i oppgave 1. Branchen du nettopp lagde 
-skal være "target" branch for merge request, mens branchen fra oppgave 1 skal være "source"
-branch.
+- Lag en pull request til master for branchen du lagde i oppgave 1.
     - Hint: Hvis du tidligere har pushet en branch til remote i terminal har du kanskje sett
-    link til å lage merge request?
+    link til å lage pull request?
 - Få noen andre til å ta "code-review" på endringen du lagde
-    - Vedkommende skal lage minst en kommentar på en vilkårlig linje i "changes"-view
-    - Vedkommende skal akseptere merge-requesten (trykk "merge") etter å ha lagd
-    en kommentar
-    
+    - Vedkommende skal lage minst en kommentar på en vilkårlig linje
+    - Vedkommende skal akseptere pull request inn til master
+
 ## Oppgave 5
 Now with GUI!
 
