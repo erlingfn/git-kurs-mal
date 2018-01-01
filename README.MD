@@ -2,7 +2,7 @@
 
 Tilhører Git-kurs for hovedprosjekt 2018
 
-(http://memeshappen.com/media/created/One-does-not-simply-understand-git-meme-60285.jpg)
+![Git meme](http://memeshappen.com/media/created/One-does-not-simply-understand-git-meme-60285.jpg)
 
 Skriveleif
 
