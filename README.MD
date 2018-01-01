@@ -17,20 +17,11 @@ Lag en liten feature
 - Legg til en ny linje i SOME_FILE.MD
 - Commit med passende melding
 - Push opp branchen til repoet
-    - Hint: Nye branches lagd lokalt må kobles opp mot en ny branch i remote repo.
+    - Hint: Nye branches lagd lokalt må kobles opp mot en ny branch i remote repo
     ```git push -u origin min-custom-branch```
 - Sjekk at branchen eksisterer i remote repo på Github
 
 ## Oppgave 2
-Fiks en liten bug
-
-- Lag en ny branch utifra master med navn ```bugfix-<branch_navn>```
-- Gjør om linjen ”Skriveleif” til ”Skrivefeil” i README.MD
-- Commit med passende melding
-- Push opp branchen til repoet
-- Sjekk at branchen eksisterer på Github
-
-## Oppgave 3
 Fiks en merge-konflikt
 
 - Bytt branch til master
@@ -42,7 +33,7 @@ Fiks en merge-konflikt
 konflikhåndteringsverktøy i IntelliJ
 - Commit etter å ha løst merge-konflikt (ikke push opp resultatet)
 
-## Oppgave 4
+## Oppgave 3
 Lag en pull request
 
 - Lag en ny branch utifra master
@@ -54,7 +45,7 @@ Lag en pull request
     - Vedkommende skal lage minst en kommentar på en vilkårlig linje
     - Vedkommende skal akseptere pull request inn til master
 
-## Oppgave 5
+## Oppgave 4
 Now with GUI!
 
 - Gjør oppgave 1 med kun bruk av Git-verktøy i IntelliJ
