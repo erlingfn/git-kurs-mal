@@ -7,8 +7,9 @@ Tilhører Git-kurs for hovedprosjekt 2018
 Skriveleif
 
 # Oppgaver
-Hvis du står fast kan du gå tilbake til (https://try.github.io) for å se over
-kommandoer
+
+## Oppgave 0
+Start med (https://try.github.io) for å øve på grunnleggende bruk av Git. Valgfritt.
 
 ## Oppgave 1
 Lag en liten feature
