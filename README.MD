@@ -16,7 +16,7 @@ Lag en liten feature
 - Lag en ny branch utifra master med navn ```feature-<branch_navn>```
 - Legg til en ny linje i SOME_FILE.MD
 - Commit med passende melding
-- Push opp branchen til repoet
+- Push opp branchen til remote repo
     - Hint: Nye branches lagd lokalt må kobles opp mot en ny branch i remote repo
     ```git push -u origin min-custom-branch```
 - Sjekk at branchen eksisterer i remote repo på Github
