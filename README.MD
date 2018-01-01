@@ -30,14 +30,13 @@ Fiks en merge-konflikt
 - Merge ```conflict-branch-2``` inn i ```conflict-branch-1``` og løs konfliktene med
 konflikhåndteringsverktøy i IntelliJ
 - Commit etter å ha løst merge-konflikt (ikke push opp resultatet)
+- Sjekk at det finnes en ny commit i den lokale Git-historikken
 
 ## Oppgave 3
 Lag en pull request
 
-- Lag en ny branch utifra master
-- Push den nye branchen til remote repo
 - Lag en pull request til master for branchen du lagde i oppgave 1.
-    - Hint: Hvis du tidligere har pushet en branch til remote i terminal har du kanskje sett
+    - Hint: Hvis du tidligere har pushet en branch til remote så har du kanskje sett
     link til å lage pull request?
 - Få noen andre til å ta "code-review" på endringen du lagde
     - Vedkommende skal lage minst en kommentar på en vilkårlig linje
