@@ -25,7 +25,6 @@ Lag en liten feature
 ## Oppgave 2
 Fiks en merge-konflikt
 
-- Bytt branch til master
 - Hent ned branchene ```conflict-branch-1``` og ```conflict-branch-2```
     - Hint: Bruk ```git checkout -b conflict-branch-1 origin/conflict-branch-1```
     for å lage en lokal branch som er koblet opp til samme branch i remote repo. Kjør
