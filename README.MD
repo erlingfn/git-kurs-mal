@@ -39,7 +39,7 @@ Lag en pull request
     - Hint: Hvis du tidligere har pushet en branch til remote så har du kanskje sett
     link til å lage pull request?
 - Få noen andre til å ta "code-review" på endringen du lagde
-    - Vedkommende skal lage minst en kommentar på en vilkårlig linje
+    - Vedkommende skal lage minst en kommentar på en vilkårlig kodelinje
     - Vedkommende skal akseptere pull request inn til master
 
 ## Oppgave 4
