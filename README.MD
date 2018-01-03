@@ -5,7 +5,7 @@ Tilhører Git-kurs for hovedprosjekt 2018
 # Oppgaver
 
 ## Oppgave 0
-Start med (https://try.github.io) for å øve på grunnleggende bruk av Git. Valgfritt.
+Start med (https://try.github.io) for å øve på grunnleggende bruk av Git.
 
 ## Oppgave 1
 Lag en liten feature
