@@ -2,8 +2,6 @@
 
 Tilhører Git-kurs for hovedprosjekt 2018
 
-![Git meme](http://memeshappen.com/media/created/One-does-not-simply-understand-git-meme-60285.jpg)
-
 # Oppgaver
 
 ## Oppgave 0
