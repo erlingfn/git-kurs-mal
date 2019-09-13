@@ -1,6 +1,4 @@
-# Hovedprosjekt 2018
-
-Tilhører Git-kurs for hovedprosjekt 2018
+# Abakurs, kick-off 2019
 
 # Oppgaver
 
